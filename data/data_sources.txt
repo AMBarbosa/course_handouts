@@ -1,0 +1,91 @@
+###############################################################################################
+ AN INFORMAL, LOOSELY CURATED, OCCASIONALLY UPDATED LIST OF SPATIAL/ENVIRONMENTAL DATA SOURCES
+###############################################################################################
+
+Compendium of Global Gridded Environmental Data Sets
+https://openlandmap.github.io/book/compendium-of-global-gridded-environmental-data-sets.html
+
+Data sources (by EfoxMaps)
+https://vlckel.notion.site/vlckel/a360dea317234868a0f7cfb1ef249843?v=2923f79780214ec390b9f0fefbc1c002
+
+R spatial data
+https://rspatialdata.github.io/
+
+Geographic data packages
+https://geocompr.robinlovelace.net/read-write.html#geographic-data-packages
+
+Open Topography
+https://portal.opentopography.org/datasets
+
+Ocean Data View
+https://odv.awi.de/
+
+European Marine Observation and Data Network (EMODnet)
+https://emodnet.ec.europa.eu/en
+
+World Ocean Atlas
+https://www.ncei.noaa.gov/products/world-ocean-atlas
+
+Awesome GEE community catalog
+https://gee-community-catalog.org/
+
+A near realtime land cover dataset for our constantly changing planet
+https://dynamicworld.app/
+https://www.nature.com/articles/s41597-022-01307-4 (data available through GEE)
+
+ForestClim—Bioclimatic variables for microclimate temperatures of European forests
+https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.16678?campaign=wolearlyview#sq_hcv8q3bjfn
+
+Berkeley Earth High-Resolution Dataset
+https://berkeleyearth.org/introducing-the-berkeley-earth-high-resolution-dataset/
+
+Global maps of soil temperature: 
+https://onlinelibrary.wiley.com/doi/10.1111/gcb.16060?fbclid=IwAR2cp29UmLcxoUouMfcyeIHZPicQN7xyLuPqlrLBJVkGUVt6Y2YHi81wqWo
+https://zenodo.org/record/4558732?fbclid=IwAR13pywf7Ol1fAJ75_0LeuWox6D8ypWQO2h1jVIULNIf5CNbgd4qseee31Y#.Y_zbkx_MKUl
+
+Harmonized World Soil Database (HWSD)
+https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/54aebf11-ec73-4ff8-bf6c-ecff4b0725ea
+Processing the Harmonized World Soil Database (Version 2.0) in R:
+https://t.co/fFIXHjD8mD
+
+Machine learning-based global maps of ecological variables and the challenge of assessing them
+https://www.nature.com/articles/s41467-022-29838-9
+
+Copernicus DEM: 2021 release now available
+https://spacedata.copernicus.eu/web/cscda/blogs/-/blogs/copernicus-dem-2021-release-now-available?
+
+Global maps of soil temperature
+https://onlinelibrary.wiley.com/doi/10.1111/gcb.16060
+
+ForestTemp: Sub-canopy microclimate temperatures of European forests
+https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15892
+
+SoilGrids: global gridded soil information
+https://www.isric.org/explore/soilgrids
+
+BlasBenito/download_and_aggregate_soilgrids.R
+https://gist.github.com/BlasBenito/2aaf3803174cf053783007f018382d86
+
+epwshiftr (CMIP6)
+https://github.com/ideas-lab-nus/epwshiftr
+
+easyclimate (Europe)
+https://verughub.github.io/easyclimate/
+
+Calculating Building Density in R with OSM data
+https://towardsdatascience.com/calculating-building-density-in-r-with-osm-data-e9d85c701e19
+
+{lidR}
+
+climateR
+https://github.com/mikejohnson51/climateR
+
+accessing NASA data from the Earth Data cloud program
+https://boettiger-lab.github.io/earthdatalogin/
+
+pastclim: an R package to easily access and use paleoclimatic reconstructions
+https://onlinelibrary.wiley.com/doi/10.1111/ecog.06481
+https://github.com/EvolEcolGroup/pastclim
+
+CDSE: 'Copernicus Data Space Ecosystem' API Wrapper
+https://cran.r-project.org/web/packages/CDSE/index.html
