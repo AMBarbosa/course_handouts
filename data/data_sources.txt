@@ -14,6 +14,9 @@ https://rspatialdata.github.io/
 Geographic data packages
 https://geocompr.robinlovelace.net/read-write.html#geographic-data-packages
 
+R packages to download open spatial data
+https://www.paulamoraga.com/book-spatial/r-packages-to-download-open-spatial-data.html#r-packages-to-download-open-spatial-data
+
 Open Topography
 https://portal.opentopography.org/datasets
 
