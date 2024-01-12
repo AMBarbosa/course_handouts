@@ -32,17 +32,26 @@ https://www.ncei.noaa.gov/products/world-ocean-atlas
 Awesome GEE community catalog
 https://gee-community-catalog.org/
 
+Global 1-km Downscaled Population Base Year and Projection Grids Based on the SSPs, v1.01 (2000-2100)
+https://sedac.ciesin.columbia.edu/data/set/popdynamics-1-km-downscaled-pop-base-year-projection-ssp-2000-2100-rev01/data-download
+
 A near realtime land cover dataset for our constantly changing planet
 https://dynamicworld.app/
 https://www.nature.com/articles/s41597-022-01307-4 (data available through GEE)
 
+Dynamic World, Near real-time global 10 m land use land cover mapping
+https://www.nature.com/articles/s41597-022-01307-4
+
 ForestClim—Bioclimatic variables for microclimate temperatures of European forests
 https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.16678?campaign=wolearlyview#sq_hcv8q3bjfn
+
+A guide and tools for selecting and accessing microclimate data for mechanistic niche modeling
+https://doi.org/10.1002/ecs2.4506
 
 Berkeley Earth High-Resolution Dataset
 https://berkeleyearth.org/introducing-the-berkeley-earth-high-resolution-dataset/
 
-Global maps of soil temperature: 
+Global maps of soil temperature:
 https://onlinelibrary.wiley.com/doi/10.1111/gcb.16060?fbclid=IwAR2cp29UmLcxoUouMfcyeIHZPicQN7xyLuPqlrLBJVkGUVt6Y2YHi81wqWo
 https://zenodo.org/record/4558732?fbclid=IwAR13pywf7Ol1fAJ75_0LeuWox6D8ypWQO2h1jVIULNIf5CNbgd4qseee31Y#.Y_zbkx_MKUl
 
