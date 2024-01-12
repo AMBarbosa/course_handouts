@@ -1,2 +1,5 @@
-# course_handouts
-Course handouts, e.g. package installation instructions and links to additional materials.
+# Course handouts
+
+This repo contains:
+- package installation instructions for each course
+- links to additional materials for some courses
