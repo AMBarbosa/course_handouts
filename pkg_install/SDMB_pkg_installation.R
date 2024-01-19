@@ -19,6 +19,7 @@ install.packages("modEvA")
 install.packages("fuzzySim")
 devtools::install_github('cjcarlson/embarcadero')
 install.packages("blockCV")
+install.packages("collinear")
 
 # download and install 'nonlinvarsel' package (not yet on GitHub, available at https://www.rob-mcculloch.org):
 if (!requireNamespace("foreach"))  install.packages("foreach", dependencies = TRUE)
