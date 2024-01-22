@@ -21,7 +21,7 @@ devtools::install_github('cjcarlson/embarcadero')
 install.packages("blockCV")
 install.packages("collinear")
 
-# download and install 'nonlinvarsel' package (not yet on GitHub, available at https://www.rob-mcculloch.org):
+# to download and install 'nonlinvarsel' package:
 if (!requireNamespace("foreach"))  install.packages("foreach", dependencies = TRUE)
 url <- "http://www.rob-mcculloch.org/chm/nonlinvarsel_0.0.1.9001.tar.gz"
 download.file(url, destfile = "nonlinvarsel_pkg_file")
