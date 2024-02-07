@@ -25,6 +25,8 @@ install.packages("corrplot")
 
 # day 3
 install.packages("ggplot2")  # required by blockCV
+install.packages("raster")  # required by SSDM
+
 install.packages("cowplot")  # required by blockCV
 install.packages("automap")  # required by blockCV
 install.packages("blockCV")
