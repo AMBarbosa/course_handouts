@@ -10,11 +10,10 @@
 install.packages("terra")
 install.packages("geodata")
 install.packages("jsonlite")  # required by geodata::sp_occurrence
-install.packages("raster")
-install.packages("sdmpredictors")
 install.packages("fuzzySim")
 
 # day 2
+install.packages("collinear")
 install.packages("modEvA")
 install.packages("predicts")
 install.packages("maxnet")
