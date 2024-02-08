@@ -32,3 +32,4 @@ install.packages("blockCV")
 # day 4
 install.packages("plotmo")
 install.packages("raster")  # required by SSDM
+install.packages("SSDM")
