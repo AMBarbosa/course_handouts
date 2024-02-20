@@ -9,17 +9,16 @@
 # after installing all packages, load each package with library() and check if there are additional error messages, in which case do as above
 
 
-# day 1
-install.packages("data.table")
-install.packages("spocc", dependencies = TRUE)
+# (day 1)
 install.packages("terra")
 install.packages("geodata")
-remotes::install_github("r-spatial/mapview", dependencies = TRUE)
-remotes::install_github("NeotomaDB/neotoma2")
-install.packages("biogeo")
+install.packages("mapview")
+install.packages("spocc")
+install.packages("neotoma2")
+install.packages("fuzzySim")
 
-# day 2
+# (day 2)
 install.packages("CoordinateCleaner")
 install.packages("spThin")
-remotes::install_github("jasonleebrown/humboldt")
-install.packages("fuzzySim")
+install.packages("ecospat")
+install.packages("lwgeom")
