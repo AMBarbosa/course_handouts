@@ -6,14 +6,12 @@
 
 # (day 1)
 install.packages("terra")  # if you have installation errors (other than missing/outdated R packages that you can install), see additional instructions at https://github.com/rspatial/terra
-install.packages("devtools")
-devtools::install_github('rstudio/leaflet')  # for 'terra::plet' function
-install.packages("raster")
+install.packages("leaflet")  # for 'terra::plet' function
 install.packages("geodata")
 install.packages("rnaturalearth")
 install.packages("car")  # 'pointLabel' function
 # install.packages("ggspatial")  # OPTIONAL, for ggplot fans
-# install.packages("tidyterra")  # OPTIONAL, for dplyr/tidyverse fans
+# install.packages("tidyterra")  # OPTIONAL, for ggplot/dplyr/tidyverse fans
 
 # (day 2)
 # no new packages
@@ -30,5 +28,5 @@ install.packages("CoordinateCleaner")
 install.packages("sdmpredictors")
 install.packages("fuzzySim")
 install.packages("cartogram")
-devtools::install_github("josephlewis/leastcostpath")
-devtools::install_github("r-spatial/mapview")
+install.packages("leastcostpath")
+install.packages("mapview")
