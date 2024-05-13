@@ -1,4 +1,6 @@
-# install recent versions of R and RStudio, then run the commands below to (re)install updated versions of the required packages
+# install recent versions of R and RStudio, then run the commands below to (re)install updated versions of the required R packages
+
+# run one command at a time, to ensure no error message goes unsolved
 
 # EVERY TIME you get a message complaining about a package or its namespace, (re)install that package [e.g. `install.packages("Rcpp")` ] and try again
 
