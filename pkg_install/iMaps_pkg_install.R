@@ -1,8 +1,8 @@
 # check RStudio menu option "Code - Soft Wrap Long Lines" and READ THE INSTRUCTIONS below!
 
-# install recent versions of R and RStudio, open RStudio, and then run the commands below, one at a time, to install the required packages
+# install recent versions of R and RStudio, and then run the commands below, one at a time, ensuring no error message goes unnoticed
 
-# it's preferable (often necessary) to have recent versions of all packages, so install even those you already had
+# you'll need recent versions of all packages, so install even those you already had!
 
 # if you're prompted to update packages, choose the option to update at least the CRAN ones
 
@@ -12,19 +12,16 @@
 
 # after installing all packages, load each one with library() and check if there are additional error messages, in which case do as above
 
-install.packages("rstudioapi")
-install.packages("Rcpp", repos = "https://rcppcore.github.io/drat")
-install.packages("terra", repos = "https://rspatial.r-universe.dev")  # if you have installation errors (other than missing R packages that you can install), see additional instructions at https://github.com/rspatial/terra
-install.packages("geodata", repos = "https://rspatial.r-universe.dev")
+install.packages("terra")
+install.packages("geodata")
 install.packages("rnaturalearth")
-install.packages("remotes")
-remotes::install_github("rstudio/leaflet")
-remotes::install_github("r-spatial/leafpop")
+install.packages("leaflet")
+install.packages("leafpop")
 install.packages("leafem")
 install.packages("leafsync")
 install.packages("leaflet.extras")
 install.packages("leaflet.extras2")
 install.packages("leaflet.minicharts")
-remotes::install_github("r-spatial/mapview")
+install.packages("mapview")
 install.packages("stars")  # required by 'mapview' when plotting rasters
 install.packages("webshot")  # required by 'mapview::mapshot'
