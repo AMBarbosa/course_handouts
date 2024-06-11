@@ -11,7 +11,7 @@
 # after installing all packages, load each one with library() and check if there are additional error messages, in which case do as above
 
 install.packages("terra")
-install.packages("geodata", repos = "https://rspatial.r-universe.dev")
+install.packages("geodata")
 install.packages("rnaturalearth")
 install.packages("leaflet")
 install.packages("leafpop")
