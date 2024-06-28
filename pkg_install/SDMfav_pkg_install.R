@@ -20,7 +20,6 @@ install.packages("maxnet")
 install.packages("glmnet")  # required by maxnet::maxnet
 install.packages("gam")
 install.packages("randomForest")
-install.packages("gbm")
 install.packages("corrplot")
 install.packages("ggplot2")  # required by blockCV
 install.packages("cowplot")  # required by blockCV
