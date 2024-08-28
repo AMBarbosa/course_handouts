@@ -4,23 +4,23 @@
 
 # EVERY TIME you get an ERROR message complaining about a package, install that package and try again
 
-# after installing all packages, load each package with library() and check if there are additional errors, in which case do as above
+# after installing all packages, load each one with library() and check if there are additional errors, in which case do as above
 
 # day 1
 install.packages("terra")
 install.packages("geodata")
 install.packages("jsonlite")  # required by geodata::sp_occurrence
+install.packages("modEvA")
 install.packages("fuzzySim")
 
 # day 2
 install.packages("collinear")
-install.packages("modEvA")
 install.packages("predicts")
 install.packages("maxnet")
 install.packages("glmnet")  # required by maxnet::maxnet
 install.packages("gam")
+install.packages("gbm3")
 install.packages("randomForest")
-install.packages("gbm")
 install.packages("corrplot")
 
 # day 3
