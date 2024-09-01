@@ -19,7 +19,8 @@ install.packages("predicts")
 install.packages("maxnet")
 install.packages("glmnet")  # required by maxnet::maxnet
 install.packages("gam")
-install.packages("gbm3")
+# install.packages("gbm")  # library(gbm) now prompts users to switch to:
+devtools::install_github("gbm-developers/gbm3")  # if you get error "Could not find tools necessary to compile a package", install RTools from https://cran.r-project.org/bin/windows/Rtools/
 install.packages("randomForest")
 install.packages("corrplot")
 
