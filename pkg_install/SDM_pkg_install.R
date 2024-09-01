@@ -17,7 +17,6 @@ install.packages("fuzzySim")
 install.packages("collinear")
 install.packages("predicts")
 install.packages("maxnet")
-install.packages("glmnet")  # required by maxnet::maxnet
 install.packages("gam")
 # install.packages("gbm")  # library(gbm) now prompts users to switch to:
 devtools::install_github("gbm-developers/gbm3")  # if you get error "Could not find tools necessary to compile a package", install RTools from https://cran.r-project.org/bin/windows/Rtools/
@@ -25,12 +24,9 @@ install.packages("randomForest")
 install.packages("corrplot")
 
 # day 3
-install.packages("ggplot2")  # required by blockCV
-install.packages("cowplot")  # required by blockCV
-install.packages("automap")  # required by blockCV
+if (!("ggplot2" %in% installed.packages())) install.packages("ggplot2")  # required by blockCV::cv_spatial
 install.packages("blockCV")
 
 # day 4
 install.packages("plotmo")
-install.packages("raster")  # required by SSDM
 install.packages("SSDM")
