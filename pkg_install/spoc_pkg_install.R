@@ -12,11 +12,12 @@
 # (day 1)
 install.packages("terra")
 install.packages("geodata")
-install.packages("mapview")
+install.packages("leaflet")  # for terra::plet
 install.packages("spocc")
 install.packages("neotoma2")
 install.packages("tidygeocoder")
 install.packages("fuzzySim")
+devtools::install_github("Pakillo/rSDM")
 
 # (day 2)
 install.packages("CoordinateCleaner")
