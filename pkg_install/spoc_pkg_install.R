@@ -4,7 +4,7 @@
 
 # if you get an error message about Rtools, follow the instructions in that message -- it may involve installing the Rtools program (from the link provided in the error message) outside R, and adding it to the path following the instructions in that website
 
-# EVERY TIME you get an ERROR message complaining about a package, (re)install that package and try again
+# EVERY TIME you get an ERROR message complaining about a package, (re)install that package and try again (e.g. install.packages("devtools"))
 
 # after installing all packages, load each package with library() and check if there are additional error messages, in which case do as above
 
@@ -20,7 +20,7 @@ install.packages("tidygeocoder")
 install.packages("fuzzySim")
 
 # (day 2)
+devtools::install_github("Pakillo/rSDM")
 install.packages("CoordinateCleaner")
 install.packages("spThin")
 install.packages("ecospat")
-devtools::install_github("Pakillo/rSDM")
