@@ -15,6 +15,7 @@ install.packages("geodata")
 install.packages("leaflet")  # for terra::plet
 install.packages("spocc")
 install.packages("neotoma2")
+install.packages("paleobioDB")
 install.packages("tidygeocoder")
 install.packages("fuzzySim")
 devtools::install_github("Pakillo/rSDM")
