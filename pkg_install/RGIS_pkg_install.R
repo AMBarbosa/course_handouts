@@ -8,10 +8,10 @@
 
 # (day 1)
 install.packages("terra")  # if you have installation errors (other than missing/outdated R packages that you can install), see additional instructions at https://github.com/rspatial/terra
-install.packages("leaflet")  # for 'terra::plet' function
+install.packages("leaflet")
 install.packages("geodata")
 install.packages("rnaturalearth")
-install.packages("car")  # 'pointLabel' function
+install.packages("car")
 # install.packages("ggspatial")  # OPTIONAL, for ggplot fans
 # install.packages("tidyterra")  # OPTIONAL, for ggplot/dplyr/tidyverse fans
 
