@@ -1,5 +1,7 @@
 # install recent versions of R and RStudio, then run the commands below to install updated versions of the packages we'll need
 
+# run one command at a time to ensure no error message goes unsolved
+
 # EVERY TIME you get an ERROR message complaining about a package, (re)install that package [e.g. `install.packages("Rcpp")` ] and try again
 
 # after installing all packages, load each one with library() and check if there are more error messages, in which case do as above
