@@ -19,6 +19,7 @@ install.packages("car")
 # no new packages
 
 # (day 3)
+install.packages("HistData")
 install.packages("adehabitatHR")
 install.packages("raster")
 install.packages("alphahull")
