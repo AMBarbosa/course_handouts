@@ -1,6 +1,6 @@
-# install recent versions of R and RStudio, then run the commands below to (re)install updated versions of the required R packages
+# in a recent version of R, RUN THE COMMANDS BELOW to (re)install updated versions of the required R packages
 
-# run one command at a time, to ensure no error message goes unsolved
+# run ONE COMMAND AT A TIME, to ensure no error message goes unsolved
 
 # EVERY TIME you get a message complaining about a package or its namespace, (re)install that package [e.g. `install.packages("Rcpp")` ] and try again
 
@@ -9,16 +9,17 @@
 # after installing all packages, load each one with library() and check if there are more error messages, in which case do as above
 
 
+if (!requireNamespace("devtools"))  install.packages("devtools")
+devtools::install_github('cjcarlson/embarcadero')
+
 install.packages("terra")  # if you have installation errors (other than missing R packages that you can install), see additional instructions at https://github.com/rspatial/terra
 install.packages("geodata")
 install.packages("jsonlite")  # required by geodata::sp_occurrence()
-install.packages("modEvA")
 install.packages("fuzzySim")
-devtools::install_github('cjcarlson/embarcadero')
+install.packages("modEvA")
 install.packages("blockCV")
 install.packages("collinear")
 
-# to download and install 'nonlinvarsel' package:
 if (!requireNamespace("foreach"))  install.packages("foreach", dependencies = TRUE)
 url <- "http://www.rob-mcculloch.org/chm/nonlinvarsel_0.0.1.9001.tar.gz"
 download.file(url, destfile = "nonlinvarsel_pkg_file")
