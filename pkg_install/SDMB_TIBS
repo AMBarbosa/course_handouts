@@ -10,15 +10,14 @@
 
 
 install.packages("terra")  # if you have installation errors (other than missing R packages that you can install), see additional instructions at https://github.com/rspatial/terra
+devtools::install_github("cjcarlson/embarcadero")
 install.packages("geodata")
 install.packages("jsonlite")  # required by geodata::sp_occurrence()
 install.packages("geodist")
 install.packages("modEvA")
 install.packages("fuzzySim")
-devtools::install_github('cjcarlson/embarcadero')
 install.packages("collinear")
 
-# to download and install 'nonlinvarsel' package:
 if (!requireNamespace("foreach"))  install.packages("foreach", dependencies = TRUE)
 url <- "http://www.rob-mcculloch.org/chm/nonlinvarsel_0.0.1.9001.tar.gz"
 download.file(url, destfile = "nonlinvarsel_pkg_file")
