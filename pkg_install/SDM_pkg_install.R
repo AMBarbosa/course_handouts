@@ -24,8 +24,9 @@ install.packages("randomForest")
 install.packages("corrplot")
 
 # day 3
-if (!("ggplot2" %in% installed.packages())) install.packages("ggplot2")  # required by blockCV::cv_spatial
+if (!("ggplot2" %in% installed.packages())) install.packages("ggplot2")  # required by blockCV::cv_spatial()
 install.packages("blockCV")
+install.packages("automap")  # required by blockCV::cv_spatial_autocor()
 
 # day 4
 install.packages("plotmo")
