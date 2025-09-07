@@ -8,6 +8,7 @@
 
 # day 1
 install.packages("terra")
+# install.packages("tidyterra")  # optional, if you want to use tidyverse functions on terra maps
 install.packages("geodata")
 install.packages("jsonlite")  # required by geodata::sp_occurrence
 install.packages("modEvA")
