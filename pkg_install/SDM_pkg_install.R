@@ -31,4 +31,5 @@ install.packages("automap")  # required by blockCV::cv_spatial_autocor()
 
 # day 4
 install.packages("plotmo")
+install.packages("mop")
 install.packages("SSDM")
