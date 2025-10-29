@@ -20,7 +20,7 @@ install.packages("tidygeocoder")
 install.packages("fuzzySim")
 
 # (day 2)
-devtools::install_github("Pakillo/rSDM")
+install.packages("rSDM", repos = c("https://pakillo.r-universe.dev/", "https://cloud.r-project.org")/)
 install.packages("CoordinateCleaner")
 install.packages("spThin")
 devtools::install_github("jasonleebrown/humboldt")
