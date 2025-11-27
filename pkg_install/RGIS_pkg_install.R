@@ -28,7 +28,6 @@ install.packages("concaveman")
 # (day 4)
 install.packages("leastcostpath")
 install.packages("gstat")
-install.packages("automap")
 
 # (day 5)
 install.packages("fuzzySim")
