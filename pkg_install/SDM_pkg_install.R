@@ -4,6 +4,9 @@
 
 # EVERY TIME you get an ERROR message complaining about a package, install that package and try again
 
+# if you get an error like "Could not find tools necessary to compile a package", 
+# install an RTools version appropriate for your R version from https://cran.r-project.org/bin/windows/Rtools/
+
 # after installing all packages, load each one with library() and check if there are additional errors, in which case do as above
 
 # [day 1]
@@ -20,7 +23,7 @@ install.packages("predicts")
 install.packages("maxnet")
 install.packages("gam")
 # install.packages("gbm")  # library(gbm) now prompts users to switch to:
-devtools::install_github("gbm-developers/gbm3")  # if you get error "Could not find tools necessary to compile a package", install RTools from https://cran.r-project.org/bin/windows/Rtools/
+devtools::install_github("gbm-developers/gbm3")
 install.packages("randomForest")
 install.packages("corrplot")
 
