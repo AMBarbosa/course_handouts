@@ -12,7 +12,7 @@
 
 # after installing all packages, load each one with library() and check if there are additional error messages, in which case do as above
 
-install.packages("terra")
+install.packages("terra")  # if you have installation errors (other than missing/outdated R packages that you can install), see additional instructions at https://github.com/rspatial/terra
 install.packages("geodata")
 install.packages("sdmpredictors")
 install.packages("rnaturalearth")
