@@ -24,3 +24,5 @@ install.packages("mapview")
 install.packages("stars")  # required by 'mapview' when plotting rasters
 install.packages("webshot")  # required by 'mapview::mapshot'
 install.packages("crosstalk")  # cross-widget interactions, e.g. filtering
+install.packages("htmltools")  # browsable viewer with widgets
+
