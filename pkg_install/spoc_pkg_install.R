@@ -10,7 +10,7 @@
 
 
 # (day 1)
-install.packages("terra")
+install.packages("terra")  # if you have installation errors (other than missing R packages that you can install), see additional instructions at https://github.com/rspatial/terra
 install.packages("geodata")
 install.packages("leaflet")  # for terra::plet
 install.packages("spocc")
