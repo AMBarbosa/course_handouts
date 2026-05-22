@@ -9,8 +9,8 @@
 # after installing all packages, load each one with library() and check if there are more error messages, in which case do as above
 
 
-if (!requireNamespace("devtools"))  install.packages("devtools")
-devtools::install_github('cjcarlson/embarcadero')
+if (!requireNamespace("remotes"))  install.packages("remotes")
+remotes::install_github('cjcarlson/embarcadero')
 
 install.packages("terra")  # if you have installation errors (other than missing R packages that you can install), see additional instructions at https://github.com/rspatial/terra
 install.packages("geodata")
