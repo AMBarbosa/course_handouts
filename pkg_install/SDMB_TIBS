@@ -10,7 +10,7 @@
 
 
 install.packages("terra")  # if you have installation errors (other than missing R packages that you can install), see additional instructions at https://github.com/rspatial/terra
-devtools::install_github("cjcarlson/embarcadero")
+remotes::install_github("cjcarlson/embarcadero")
 install.packages("geodata")
 install.packages("jsonlite")  # required by geodata::sp_occurrence()
 install.packages("geodist")
