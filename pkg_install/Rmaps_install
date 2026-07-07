@@ -13,6 +13,8 @@ install.packages("geodata")
 install.packages("rnaturalearth")
 
 install.packages("leaflet")
-install.packages("tmap")
 install.packages("tidyterra")
 install.packages("ggspatial")
+install.packages("tmap")
+install.packages("gifski")  # required by tmap_animate
+install.packages("viridis")  # required by tmap
