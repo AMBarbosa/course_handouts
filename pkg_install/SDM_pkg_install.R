@@ -23,7 +23,7 @@ install.packages("predicts")
 install.packages("maxnet")
 install.packages("gam")
 # install.packages("gbm")  # library(gbm) now prompts users to switch to:
-devtools::install_github("gbm-developers/gbm3")
+remotes::install_github("gbm-developers/gbm3")
 install.packages("randomForest")
 install.packages("corrplot")
 
