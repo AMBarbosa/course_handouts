@@ -14,14 +14,13 @@ install.packages("terra")  # if you have installation errors (other than missing
 install.packages("geodata")
 install.packages("leaflet")  # for terra::plet
 install.packages("spocc")
-# install.packages("neotoma2")  # not working properly for taxa
 install.packages("paleobioDB")
 install.packages("tidygeocoder")
 install.packages("fuzzySim")
 
 # (day 2)
-install.packages("rSDM", repos = c("https://pakillo.r-universe.dev", "https://cloud.r-project.org"))
+install.packages("rSDM", repos = "https://pakillo.r-universe.dev")
 install.packages("CoordinateCleaner")
 install.packages("spThin")
-devtools::install_github("jasonleebrown/humboldt")
+remotes::install_github("jasonleebrown/humboldt")
 install.packages("ecospat")
