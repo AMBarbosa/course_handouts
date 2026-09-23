@@ -15,6 +15,7 @@
 install.packages("terra")  # if you have installation errors (other than missing/outdated R packages that you can install), see additional instructions at https://github.com/rspatial/terra
 install.packages("geodata")
 install.packages("sdmpredictors")
+remotes::install_github("AMBarbosa/regridR")
 install.packages("rnaturalearth")
 install.packages("gstat")
 install.packages("fields")
