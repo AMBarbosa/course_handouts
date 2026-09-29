@@ -42,6 +42,9 @@ https://www.nature.com/articles/s41597-022-01307-4 (data available through GEE)
 Dynamic World, Near real-time global 10 m land use land cover mapping
 https://www.nature.com/articles/s41597-022-01307-4
 
+Global Harmonized Land Cover (GHLC) - LandMetric Land Use & Land Cover Maps
+https://codeberg.org/landmetric/ghlc
+
 ForestClim—Bioclimatic variables for microclimate temperatures of European forests
 https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.16678?campaign=wolearlyview#sq_hcv8q3bjfn
 
@@ -51,8 +54,8 @@ https://doi.org/10.1002/ecs2.4506
 Berkeley Earth High-Resolution Dataset
 https://berkeleyearth.org/introducing-the-berkeley-earth-high-resolution-dataset/
 
-Global maps of soil temperature:
-https://onlinelibrary.wiley.com/doi/10.1111/gcb.16060?fbclid=IwAR2cp29UmLcxoUouMfcyeIHZPicQN7xyLuPqlrLBJVkGUVt6Y2YHi81wqWo
+Global maps of soil temperature
+https://onlinelibrary.wiley.com/doi/10.1111/gcb.16060
 https://zenodo.org/record/4558732?fbclid=IwAR13pywf7Ol1fAJ75_0LeuWox6D8ypWQO2h1jVIULNIf5CNbgd4qseee31Y#.Y_zbkx_MKUl
 
 Harmonized World Soil Database (HWSD)
@@ -65,9 +68,6 @@ https://www.nature.com/articles/s41467-022-29838-9
 
 Copernicus DEM: 2021 release now available
 https://spacedata.copernicus.eu/web/cscda/blogs/-/blogs/copernicus-dem-2021-release-now-available?
-
-Global maps of soil temperature
-https://onlinelibrary.wiley.com/doi/10.1111/gcb.16060
 
 ForestTemp: Sub-canopy microclimate temperatures of European forests
 https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15892
